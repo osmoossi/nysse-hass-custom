@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "description": "HSL-HRT Configuration Parameters",
-        "title": "Helsinki Regional Transport",
+        "description": "Nysse Configuration Parameters",
+        "title": "Nysse",
         "data": {
           "user_name_code": "STOP Name / Code",
           "route": "Route",

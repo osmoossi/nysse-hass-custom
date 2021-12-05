@@ -1,15 +1,15 @@
 {
-  "domain": "hslhrt",
-  "version": "0.3.4",
-  "name": "Helsinki Regional Transport",
-  "documentation": "https://github.com/anand-p-r/hslhrt-hass-custom",
+  "domain": "nysse",
+  "version": "0.1.0",
+  "name": "Nysse",
+  "documentation": "https://github.com/osmoossi/nysse-hass-custom",
   "requirements": [
     "python_graphql_client==0.3.1"
   ],
   "dependencies": [],
   "codeowners": [
-    "@anand-p-r"
+    "@osmoossi"
   ],
-  "issue_tracker": "https://github.com/anand-p-r/hslhrt-hass-custom/issues",
+  "issue_tracker": "https://github.com/osmoossi/nysse-hass-custom/issues",
   "config_flow": true
 }

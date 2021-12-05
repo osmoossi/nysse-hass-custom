@@ -1,5 +1,5 @@
-# hslhrt-hass-custom
-`hslhrt-hass-custom` is a Home Assistant custom component for real time public transsport information in Helsinki Metropoliton Area. Data is provided via [Digitransit platform](https://digitransit.fi/en/) APIs.
+# nysse-hass-custom
+`nysse-hass-custom` is a Home Assistant custom component for real time public transsport information in Tampere. Data is provided via [Digitransit platform](https://digitransit.fi/en/) APIs.
 
 ## Installation
 

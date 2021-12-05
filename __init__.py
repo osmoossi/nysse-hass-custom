@@ -243,7 +243,7 @@ class HSLHRTDataUpdateCoordinator(DataUpdateCoordinator):
                 # Find all the trips for the day
                 current_epoch = int(time.time())
                 variables = {
-                    VAR_ID: self.gtfs_id.upper(), 
+                    VAR_ID: self.gtfs_id,
                     VAR_CURR_EPOCH: current_epoch, 
                     VAR_LIMIT: LIMIT}
 
