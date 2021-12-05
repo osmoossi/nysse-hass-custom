@@ -4,15 +4,15 @@ from datetime import timedelta
 
 _LOGGER = logging.getLogger(__package__)
 
-DOMAIN = "hslhrt"
-NAME = DEFAULT_NAME = "HSLHRT"
-MANUFACTURER = "Helsinki Regional Transport Authority"
+DOMAIN = "nysse"
+NAME = DEFAULT_NAME = "NYSSE"
+MANUFACTURER = "Nysse"
 
 COORDINATOR = "coordinator"
 MIN_TIME_BETWEEN_UPDATES = timedelta(minutes=1)
 UNDO_UPDATE_LISTENER = "undo_update_listener"
 
-BASE_URL = "https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql"
+BASE_URL = "https://api.digitransit.fi/routing/v1/routers/waltti/index/graphql"
 
 NAME_CODE = "user_name_code"
 STOP_CODE = "stop_code"
@@ -44,7 +44,7 @@ ATTR_STOP_NAME = "STOP NAME"
 ATTR_STOP_CODE = "STOP CODE"
 ATTR_STOP_GTFS = "GTFS ID"
 
-ATTRIBUTION = "Data provided by Helsinki Regional Transport(HSL HRT)"
+ATTRIBUTION = "Data provided by Nysse / Digitransit"
 
 LIMIT = 1500
 SECS_IN_DAY = 24*60*60
