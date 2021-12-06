@@ -108,7 +108,7 @@ class HSLHRTRouteSensor(CoordinatorEntity):
         if self.coordinator is not None and len(self.coordinator.route_data[DICT_KEY_ROUTES]) > 0:
             
             routes = []
-            for rt in self.coordinator.route_data[DICT_KEY_ROUTES][1:]:
+            for rt in self.coordinator.route_data[DICT_KEY_ROUTES][0:]:
                 dest_str = "Unavailable"
 
                 if rt[DICT_KEY_DEST] is not None:
