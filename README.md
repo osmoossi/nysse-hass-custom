@@ -37,7 +37,7 @@ Display a stop with attributes showing route, arrival time and destination
 
 <br/>
 
-#### Lovalace UI Entities Card Configuration, for Option-2:
+#### Lovalace UI Entities Card Configuration, for Option-§:
 ```
 type: entities
 title: Nysse - Kullervonkatu 5
