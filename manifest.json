@@ -1,10 +1,10 @@
 {
   "domain": "nysse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "Nysse",
   "documentation": "https://github.com/osmoossi/nysse-hass-custom",
   "requirements": [
-    "python_graphql_client==0.3.1"
+    "python_graphql_client==0.4.3"
   ],
   "dependencies": [],
   "codeowners": [
